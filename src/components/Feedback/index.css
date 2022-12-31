@@ -1,0 +1,63 @@
+/* Write your CSS code here. */
+.bgContainer {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.emoji {
+  width: 60px;
+}
+.emojiContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.feedbackCard {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 400px;
+}
+.feedbackHeading {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+.emojiText {
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+.emojiItem {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.feedbackResponseCard {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.responseEmoji {
+  width: 80px;
+}
+.responseGreeting {
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+.responseDescription {
+  color: #1e293b;
+  font-family: 'Roboto';
+  text-align: center;
+  font-weight: 500;
+}
